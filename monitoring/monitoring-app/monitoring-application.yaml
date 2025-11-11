@@ -11,7 +11,7 @@ spec:
       targetRevision: 67.9.0
       helm:
         valueFiles:
-          - custom-values.yaml
+          - ../custom-values.yaml
     - repoURL: 'https://github.com/pablodelarco/kubernetes-homelab'
       targetRevision: main
       ref: values
