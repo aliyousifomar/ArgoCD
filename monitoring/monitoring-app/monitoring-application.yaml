@@ -10,7 +10,7 @@ spec:
       chart: kube-prometheus-stack
       targetRevision: 67.9.0
       helm:
-        valueFiles:
+        valuesFiles:
           - custom-values.yaml
     - repoURL: 'https://github.com/pablodelarco/kubernetes-homelab'
       targetRevision: main
