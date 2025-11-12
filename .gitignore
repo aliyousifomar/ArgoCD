@@ -1,0 +1,15 @@
+# Ignore Kubernetes secret YAMLs / generated secret files
+*secret*.yml
+*secret*.yaml
+*secrets*.yml
+*secrets*.yaml
+
+# Names like secret-foo.yaml or foo-secret.yaml
+secret-*.yml
+secret-*.yaml
+*-secret.yml
+*-secret.yaml
+
+# Ignore folders named "secrets"
+secrets/
+**/secrets/

@@ -1,0 +1,8 @@
+grafana:
+  adminPassword: ""
+  extraSecretMounts:
+    - name: grafana-admin-password
+      secretName: grafana-admin-password
+      mountPath: /etc/secrets/grafana
+      defaultMode: 0440
+  adminPasswordFile: /etc/secrets/grafana/grafana-admin-password
