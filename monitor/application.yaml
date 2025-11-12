@@ -11,7 +11,7 @@ spec:
     targetRevision: 45.6.0
     helm:
       valueFiles:
-        - path/to/your/values.yaml
+        - values.yaml
   destination:
     namespace: monitoring
     server: https://kubernetes.default.svc
